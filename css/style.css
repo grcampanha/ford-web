@@ -454,3 +454,141 @@ input:active{
     margin-right: 20%;
     color: rgb(255, 255, 255);
 }
+
+/*///////////////////////////////////////////////////////////////////  SKILLS  ///////////////////////////////////////////////////////////////////*/
+
+.select-skills{
+    padding: 15px 180px 15px 240px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background: linear-gradient(90deg, rgba(185,29,184,1) 0%, rgba(170,84,169,1) 53%, rgba(130,0,130,1) 100%);
+    font-size: 20px;
+}
+
+.box-skills{
+    width: 90%;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: whitesmoke;
+    border-radius: 30px;
+}
+
+.top-box{
+    width: 65%;
+}
+
+.top-box img{
+    width: 35%;
+    margin: 40px 10px 10px 40px;
+}
+
+.top-box h1{
+    width: 30%;
+    float: right;
+    margin-top: 40px;
+    margin-right: 25%;
+    font-size: 30px;
+
+}
+.year{
+    width: 30%;
+    float: right;
+    margin-top: -14%;
+    margin-right: 25%;
+    font-size: 24px;
+
+}
+.status{
+    width: 30%;
+    float: right;
+    margin-top: -9.5%;
+    margin-right: 25%;
+    font-size: 24px;
+
+}
+
+.bottom-box{
+    width: 65%;
+    padding-bottom: 60px;
+}
+.bottom-box h1{
+    font-size: 30px;
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+.engine{
+    margin-left: 70px;
+    width: 30%;
+    font-size: 24px;
+}
+.wheel{
+    width: 30%;
+    float: right;
+    margin-top: -4.1%;
+    margin-right: 32%;
+    font-size: 24px;
+}
+.brake{
+    width: 28%;
+    float: right;
+    margin-top: -4.1%;
+    margin-left: 20%;
+    font-size: 24px;
+}
+
+.available{
+    color: rgb(128, 173, 128);
+}
+
+#progress-bar{
+    width: 30%;
+}
+
+.score-engine{
+    margin-left: 70px;
+    width: 30%;
+    font-size: 18px;
+}
+.score-wheel{
+    width: 30%;
+    float: right;
+    margin-top: -4.1%;
+    margin-right: 32%;
+    font-size: 18px;
+}
+.score-brake{
+    width: 28%;
+    float: right;
+    margin-top: -4.1%;
+    margin-left: 20%;
+    text-align: initial;
+    font-size: 18px;
+}
+
+.bottom-box span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.skills{
+    
+}
+
+.fiap{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 15%;
+}
+
+.fiap img{
+    float: right;
+    width: 10%;
+}

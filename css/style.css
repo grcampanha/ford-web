@@ -1,0 +1,456 @@
+.header{
+    background: rgb(10,4,108);
+    background: linear-gradient(90deg, rgba(10,4,108,1) 0%, rgba(93,93,255,1) 24%, rgba(255,0,116,1) 100%);
+    padding: 20px 0px 20px 0px;
+    margin-top: -25px;
+    border-bottom: 3px solid black;
+}
+
+.header h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgba(0,20,84,1) 100%);
+    width: 100%;
+    height: 1vh;
+  }
+
+  .hub_title{
+      text-align: center;
+      color: white;
+      font-size: 50px;
+      margin-top: 30px;
+  }
+
+  .user_hello{
+    text-align: center; 
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 25%;
+    padding: 10px 0px 10px 0px;
+    margin-left: 37.5%;
+    margin-top: 20px;
+    }
+
+  .vehicles{
+      width: 25%;
+      padding: 20px 30px 20px 30px;
+      border-radius: 35px;
+      display: inline-block;
+      margin-top: 5%;
+      margin-left: 7.5%;
+      border: 2px solid white;
+      color: rgb(255, 255, 255);
+  }
+
+  .vehicles:hover{
+    cursor: pointer;
+  }
+
+  .vehicles h2{
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .vehicles p{
+      text-align: center;
+  }
+
+  .vehicles img{
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 27px;
+      padding-top: 10px;
+    }
+
+  .skills{
+      width: 25%;
+      padding: 20px 30px 20px 30px;
+      border-radius: 35px;
+      display: inline-block;
+      margin-top: 5%;
+      margin-left: 5%;
+      border: 2px solid white;
+      color: rgb(255, 255, 255);
+      box-shadow: 0 0 0 1px rgba(0,0,0,.01);
+  }
+
+  .skills:hover{
+    cursor: pointer;
+  }
+
+  .skills h2{
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .skills p{
+      text-align: center;
+  }
+
+  .skills img{
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .store{
+        width: 25%;
+        padding: 20px 30px 20px 30px;
+        border-radius: 35px;
+        display: inline-block;
+        margin-top: 5%;
+        margin-left: 5%;
+        border: 2px solid white;
+        color: rgb(255, 255, 255);
+    }
+  
+    .store:hover{
+      cursor: pointer;
+    }
+  
+    .store h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+  
+    .store p{
+        text-align: center;
+    }
+  
+    .store img{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 17px;
+      }
+
+      .info{
+          width: 85%;
+          margin-left: 7.5%;
+          margin-top: 15%;
+      }
+
+      .info img{
+          float: right;
+          width: 40%;
+      }
+
+      .info h2{
+          color: white;
+          text-transform: uppercase;
+          font-size: 50px;
+          text-align: center;
+          margin-bottom: 60px;
+      }
+
+      .info p{
+          color: white;
+          font-size: 34px;
+          width: 35%;
+          padding-top: 30px;
+          margin-left: 10%;
+      }
+
+
+/*///////////////////////////////////////////////////////////////////  MY CARS ///////////////////////////////////////////////////////////////////*/
+
+.title{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.add{
+    width: 87.5%;
+    padding: 0PX 30px 15px 30px;
+    border-radius: 35px;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 6%;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+}
+
+.add:hover{
+    cursor: pointer;
+}
+
+.add h2{
+    text-align: center;
+}
+
+.car{
+        width: 25%;
+        padding: 20px 30px 20px 30px;
+        border-radius: 35px;
+        display: inline-block;
+        margin-top: 5%;
+        margin-left: 6%;
+        border: 2px solid white;
+        color: rgb(255, 255, 255);
+    }
+  
+.car:hover{
+      cursor: pointer;
+    }
+  
+.car h2{
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.car p{
+    font-size: 20px;
+}
+
+.activated{
+    color: greenyellow;
+}
+
+.deactivated{
+    color: red;
+}
+
+.car img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 17px;
+  }
+
+/*///////////////////////////////////////////////////////////////////  STORE  ///////////////////////////////////////////////////////////////////*/
+
+.product{
+    width: 25%;
+    padding: 20px 0px 20px 0px;
+    border-radius: 35px;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 6%;
+    border: 2px solid white;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+.product:hover{
+  cursor: pointer;
+}
+
+.product h2{
+background-color: aliceblue;
+font-size: 30px;
+text-align: center;
+}
+
+.product p{
+background-color: aliceblue;
+font-size: 24px;
+text-align: center;
+}
+
+
+.product img{
+width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px;
+padding-bottom: 17px;
+}
+
+/*///////////////////////////////////////////////////////////////////  STORE  ///////////////////////////////////////////////////////////////////*/
+
+.product_info{
+    width: 60%;
+    padding: 20px 0px 20px 0px;
+    border-radius: 35px;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 6%;
+    border: 2px solid white;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+.product_info:hover{
+  cursor: pointer;
+}
+
+.product_info h2{
+background-color: aliceblue;
+float: right;
+margin-top: -15%;
+margin-right: 52%;
+font-size: 30px;
+text-align: center;
+}
+
+.product_info p{
+background-color: aliceblue;
+float: right;
+margin-top: -12%;
+margin-right: 65%;
+font-size: 32px;
+text-align: center;
+}
+
+
+.product_info img{
+width: 20%;
+margin-left: 5%;
+padding-top: 10px;
+padding-bottom: 17px;
+}
+
+#buy{
+    float:right;
+    padding: 10px 90px 10px 90px;
+    top: 20%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 58%;
+    margin-top: -7%;
+}
+
+/*///////////////////////////////////////////////////////////////////  STORE  ///////////////////////////////////////////////////////////////////*/
+
+.box_login{
+    background-color: rgb(18, 4, 36);
+    width: 25%;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 37.5%;
+    border-radius: 25px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.01);
+}
+
+.box_login::after {
+    position: absolute;
+    content: "";
+    top: 16.5%;
+    left: 36%;
+    right: 0;
+    z-index: -1;
+    height: 69.5%;
+    width: 28%;
+    transform: scale(0.9) translateZ(0);
+    filter: blur(15px);
+    background: linear-gradient(
+      to left,
+      #ff5770,
+      #e4428d,
+      #c42da8,
+      #9e16c3,
+      #6501de,
+      #9e16c3,
+      #c42da8,
+      #e4428d,
+      #ff5770
+    );
+    background-size: 200% 200%;
+    animation: animateGlow 1.25s linear infinite;
+}
+
+  @keyframes animateGlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+  
+
+.box_login h2{
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+
+.box_login p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.user_form{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 10%;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:active{
+    border: none;
+}
+
+.box_login button{
+    width: 60%;
+    padding: 15px 30px 15px 30px;
+    margin-top: 50px;
+    margin-left: 20%;
+    border-radius: 15px;
+}
+
+.facebook{
+    margin-left: 20%;
+    width: 30%;
+    padding: 10px 10px 0px 10px;
+    display: inline-block;
+}
+
+.facebook img{
+    width: 20%;
+}
+
+.facebook p{
+    float: right;
+    margin-right: 20%;
+    margin-top: 1%;
+    color: rgb(255, 255, 255);
+}
+
+.google{
+    width: 30%;
+    padding: 10px 10px 0px 10px;
+    display: inline-block;
+}
+
+.google img{
+    width: 20%;
+}
+
+.google p{
+    float: right;
+    margin-top: 1%;
+    margin-right: 20%;
+    color: rgb(255, 255, 255);
+}
